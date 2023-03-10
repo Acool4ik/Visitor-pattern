@@ -1,5 +1,7 @@
-# Visitor-pattern
-
+# Simple impl of 'Visitor' pattern
+### Note
+`you may create castom 'VisitorImpl' according to the model and there can be as many as you want`
+### Main idea
 ```c++
 struct Expression
 {
@@ -72,3 +74,5 @@ struct VisitorImpl : Visitor
     }
 };
 ```
+
+
